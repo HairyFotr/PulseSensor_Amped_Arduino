@@ -76,7 +76,7 @@ ISR(TIMER2_COMPA_vect){                         // triggered when Timer2 counts 
       rate[9] = IBI;                          // add the latest IBI to the rate array
       runningTotal += rate[9];                // add the latest IBI to runningTotal
       runningTotal /= 10;                     // average the last 10 IBI values 
-      BPM = 60000/runningTotal;               // how many beats can fit into a minute? that's BPM!
+      //BPM = 60000.0/runningTotal;               // how many beats can fit into a minute? that's BPM!
       QS = true;                              // set Quantified Self flag 
       // QS FLAG IS NOT CLEARED INSIDE THIS ISR
     }                       

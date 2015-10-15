@@ -1,5 +1,8 @@
 ![logo](https://avatars0.githubusercontent.com/u/7002937?v=3&s=200)
 
+## Liminoid
+This fork is slightly customized for [Liminoid](https://github.com/HairyFotr/Liminoid)
+
 ## Pulse Sensor Arduino Code
 1. Blinks an LED to User's Live Heartbeat   
 2. Fades an LED to User's Live HeartBeat
